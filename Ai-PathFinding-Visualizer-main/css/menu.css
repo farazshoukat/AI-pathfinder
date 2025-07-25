@@ -1,0 +1,101 @@
+.menu-title-wrap {
+  width: 100%;
+  background-color: #404d68;
+  padding: 20px 0px; /*top,down. left,right*/
+  margin-bottom: 20px;
+}
+
+.menu-title {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+
+.hint-title-wrap{
+  width: 100%;
+  background-color: #313c52d0;
+  padding:20px 0px;
+  margin-bottom:20px;
+}
+
+
+.hint-title{
+  font-size: 24px;
+  color:#fdfdfd;
+
+}
+
+
+
+.choice {
+  padding: 20px;
+  text-align: left;
+}
+
+.slider-bar {
+  padding: 10px 20px 10px 20px;
+  text-align: left;
+}
+
+.choice_label {
+  white-space: nowrap;
+  color: #313c52;
+  font-size: 18px;
+  left: 0px;
+  top: 0px;
+}
+
+.sprites {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+.nodes-table{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  gap:3px
+}
+
+.flex-align-center{
+  display: flex;
+  gap:2px;
+  align-items: center;
+}
+
+.margin-bottom-14px{
+  margin-bottom: 14px;
+}
+
+.align-left{
+  text-align: left;
+  margin-left:20px;
+  color: #495057;
+  font-weight: 600;
+}
+
+.algo-types{
+  list-style: disc;
+}
+
+.dot {
+  height: 14px;
+  width: 14px;
+  background-color: #adb5bd;
+  border-radius: 50%;
+  display: block;
+}
+
+.algo-list-flex{
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 42px;
+  gap:4px
+}
+
